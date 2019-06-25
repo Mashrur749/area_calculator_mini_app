@@ -1,0 +1,14 @@
+{
+  "circle":{
+    "area": "Area",
+    "notation": "PI x radius^2"
+  },
+  "triangle":{
+    "area": "Area",
+    "notation": "Area = .5 x height x width"
+  },
+  "square":{
+    "area": "Area",
+    "notation": "height x width"
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Shape Calculator App</title>
+    <link rel="stylesheet" href="css/css_reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <section id="app">
+        <header>
+          <h2>Caculate The Area of a</h2>
+          <h1><span class="shape">TRIANGLE</span></h1>
+        </header>
+
+        <div class="logos">
+          <div class="logos">
+              <div class="logoOuter">
+                  <div class="circle logo"></div>                    
+              </div>
+              <div class="logoOuter">
+                  <div class="triangle logo"></div>                    
+              </div>
+              <div class="logoOuter">
+                  <div class="square logo"></div>                    
+              </div>
+
+          </div>
+        </div>
+
+        <form id="calculator" action="index.html" method="post">
+          <input type="number" class="height_width" id="height"name="" step=".01" placeholder="length of one side(a) / Height..."><br>
+          <input type="number" class="height_width" id="width" name="" step=".01" placeholder="length of one side(b) / Width..."><br>
+          <div>
+            <label for="theta">&Theta;<sub>1</sub></label><br>
+            <input type="number" id="theta" class="thetas" step=".01" placeholder="deg">
+          </div>
+
+          <input type="number" name="" id="area" placeholder="Area..." step=".01"><br>
+          <button> Submit </button>
+        </form>
+
+      </section>
+
+      <section id="theory">
+          <h2><span class="shape">Triangle</span> theory for area</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Shape</th>
+                <th>Theory</th>
+                <th>Notation</th>
+              </tr>
+            </thead>
+            <tbody id="theoryTable">
+              <tr>
+                <td rowspan="50">
+                  <div class="triangle"></div>
+                </td>
+                <td> Area </td>
+                <td>Area = .5 x height x width <span class="remove"> Remove </span></td>
+                </div>
+              </tr>
+            </tbody>
+          </table>
+        <form id="addTheory" method="post">
+          <button> Add My Theory </button>
+          <input type="text" placeholder="theory...">
+          <input type="text" placeholder="notations...">
+        </form>
+
+      </section>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
