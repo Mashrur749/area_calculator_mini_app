@@ -11,7 +11,6 @@ var remove = document.getElementsByClassName(".remove")[0];
 var inputs = document.getElementsByTagName("input");
 init();
 
-alert("Remember to open in server");
 
 function init() {
 
